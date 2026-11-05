@@ -1,2 +1,1 @@
-console.log("The Daily Chronicle loaded.");
-
+console.log("The Daily Chronicle is running.");
