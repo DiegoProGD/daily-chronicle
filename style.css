@@ -613,5 +613,58 @@ select{
     }
 
 }
+
+.admin-warning{
+
+    text-align:center;
+
+    padding:20px;
+
+    border:2px solid black;
+
+    background:#f7f7f7;
+
+    margin-top:30px;
+}
+
+.admin-section{
+
+    margin-top:40px;
+}
+
+.admin-card{
+
+    border:1px solid black;
+
+    padding:20px;
+
+    background:white;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:12px;
+}
+
+.admin-card input{
+
+    padding:10px;
+
+    border:1px solid black;
+
+    font-family:"Times New Roman", serif;
+}
+
+.small-textarea{
+
+    min-height:150px;
+}
+
+.admin-card button{
+
+    padding:10px;
+
+    cursor:pointer;
+}
     
 }
