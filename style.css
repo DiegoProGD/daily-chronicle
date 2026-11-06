@@ -311,5 +311,95 @@ select{
 
     margin:15px 0;
 }
+
+.write-container{
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.write-container h2{
+    text-align:center;
+}
+
+.write-container form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.write-container input,
+.write-container select{
+    padding:12px;
+    border:1px solid black;
+    font-family:"Times New Roman", serif;
+    font-size:16px;
+}
+
+.editor-toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+
+    padding:10px;
+
+    border:1px solid black;
+    border-bottom:none;
+
+    background:#f5f5f5;
+}
+
+.editor-toolbar button{
+    min-width:60px;
+    cursor:pointer;
+}
+
+.editor{
+    min-height:700px;
+
+    padding:25px;
+
+    border:1px solid black;
+
+    background:white;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    overflow:auto;
+}
+
+.article-note{
+    margin-top:15px;
+
+    padding:15px;
+
+    background:#f7f7f7;
+
+    border-left:4px solid black;
+}
+
+.button-row{
+    display:flex;
+    gap:15px;
+}
+
+.draft-btn,
+.submit-btn{
+    padding:12px 20px;
+    cursor:pointer;
+}
+
+.submit-btn{
+    font-weight:bold;
+}
+
+@media(max-width:700px){
+
+    .button-row{
+        flex-direction:column;
+    }
+
+}
     
 }
