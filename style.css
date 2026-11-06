@@ -283,5 +283,33 @@ footer{
     }
 
 }
+
+textarea{
+    min-height:300px;
+    resize:vertical;
+
+    padding:12px;
+
+    border:1px solid black;
+
+    font-family:"Times New Roman", serif;
+    font-size:16px;
+}
+
+select{
+    padding:12px;
+    border:1px solid black;
+    font-family:"Times New Roman", serif;
+}
+
+.article-note{
+    border-left:4px solid black;
+
+    background:#f8f8f8;
+
+    padding:15px;
+
+    margin:15px 0;
+}
     
 }
