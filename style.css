@@ -401,5 +401,80 @@ select{
     }
 
 }
+
+.dashboard-header{
+    text-align:center;
+    margin-top:30px;
+}
+
+.dashboard-section{
+    margin-top:40px;
+}
+
+.dashboard-card{
+
+    border:1px solid black;
+
+    padding:20px;
+
+    margin-top:15px;
+
+    background:white;
+}
+
+.status{
+
+    display:inline-block;
+
+    padding:6px 12px;
+
+    margin-top:10px;
+
+    margin-bottom:10px;
+
+    border:1px solid black;
+
+    font-weight:bold;
+}
+
+.draft{
+    background:#eeeeee;
+}
+
+.pending{
+    background:#fff4cc;
+}
+
+.revision{
+    background:#dff0ff;
+}
+
+.published{
+    background:#ddffdd;
+}
+
+.rejected{
+    background:#ffe1e1;
+}
+
+.editor-note{
+
+    margin-top:15px;
+
+    padding:15px;
+
+    border-left:4px solid black;
+
+    background:#f7f7f7;
+}
+
+.dashboard-card button{
+
+    margin-top:15px;
+
+    padding:10px 16px;
+
+    cursor:pointer;
+}
     
 }
