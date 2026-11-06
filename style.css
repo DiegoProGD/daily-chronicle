@@ -198,5 +198,90 @@ footer{
 .auth-container button:hover{
     background:#f2f2f2;
 }
+
+.profile-header{
+    display:flex;
+    gap:25px;
+    align-items:center;
+    margin-top:30px;
+    padding-bottom:20px;
+    border-bottom:2px solid black;
+}
+
+.profile-picture{
+    width:120px;
+    height:120px;
+
+    border:2px solid black;
+
+    background:#ddd;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-weight:bold;
+}
+
+.profile-info h2{
+    margin:0;
+}
+
+.username{
+    margin-top:5px;
+    font-style:italic;
+}
+
+.joined,
+.article-count{
+    margin-top:10px;
+}
+
+.badge-section{
+    margin-top:30px;
+}
+
+.badge-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.badge{
+    border:1px solid black;
+    padding:8px 12px;
+    background:white;
+}
+
+.articles-section{
+    margin-top:40px;
+}
+
+.profile-article{
+    border-top:1px solid black;
+    padding-top:10px;
+}
+
+.admin-actions{
+    margin-top:40px;
+    border-top:2px solid black;
+    padding-top:20px;
+}
+
+.admin-actions button{
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+@media(max-width:700px){
+
+    .profile-header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
     
 }
