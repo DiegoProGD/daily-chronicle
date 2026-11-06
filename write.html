@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Article - The Daily Chronicle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="paper">
+
+    <header>
+
+        <div class="topline">
+            Founded 2026 • User-Published Articles
+        </div>
+
+        <h1>THE DAILY CHRONICLE</h1>
+
+        <div class="subtitle">
+            Write an Article
+        </div>
+
+    </header>
+
+    <nav>
+        <a href="index.html">← Back to The Daily Chronicle</a>
+    </nav>
+
+    <div class="write-container">
+
+        <h2>Submit An Article</h2>
+
+        <form>
+
+            <label>Article Title *</label>
+
+            <input
+                type="text"
+                placeholder="My Amazing Story"
+                required
+            >
+
+            <label>Thumbnail *</label>
+
+            <input
+                type="file"
+                accept="image/*"
+                required
+            >
+
+            <label>Category *</label>
+
+            <select required>
+
+                <option value="">
+                    Select Category
+                </option>
+
+                <option>Technology</option>
+                <option>Gaming</option>
+                <option>Science</option>
+                <option>News</option>
+                <option>Sports</option>
+                <option>Entertainment</option>
+
+            </select>
+
+            <label>Article Content *</label>
+
+            <div class="editor-toolbar">
+
+                <button type="button" onclick="document.execCommand('bold')">
+                    <b>B</b>
+                </button>
+
+                <button type="button" onclick="document.execCommand('italic')">
+                    <i>I</i>
+                </button>
+
+                <button type="button" onclick="document.execCommand('underline')">
+                    <u>U</u>
+                </button>
+
+                <button type="button" onclick="setSize(4)">
+                    Small
+                </button>
+
+                <button type="button" onclick="setSize(5)">
+                    Normal
+                </button>
+
+                <button type="button" onclick="setSize(6)">
+                    Large
+                </button>
+
+                <button type="button" onclick="setSize(7)">
+                    Huge
+                </button>
+
+            </div>
+
+            <div
+                id="editor"
+                class="editor"
+                contenteditable="true"
+            >
+                Start writing your article...
+            </div>
+
+            <div class="article-note">
+
+                <strong>Editorial Review Process</strong>
+
+                <br><br>
+
+                Every article submitted to
+                The Daily Chronicle is reviewed
+                before publication.
+
+                <br><br>
+
+                Your article may be:
+
+                <ul>
+                    <li>✅ Published</li>
+                    <li>📝 Returned For Revision</li>
+                    <li>❌ Rejected</li>
+                </ul>
+
+                If an article is returned,
+                Diego can leave notes
+                explaining what should be improved.
+
+            </div>
+
+            <div class="button-row">
+
+                <button
+                    type="button"
+                    class="draft-btn"
+                >
+                    Save Draft
+                </button>
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    Submit For Review
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script>
+
+function setSize(size){
+    document.execCommand("fontSize", false, size);
+}
+
+</script>
+
+</body>
+</html>
