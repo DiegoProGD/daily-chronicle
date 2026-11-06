@@ -162,4 +162,41 @@ footer{
         grid-template-columns:1fr;
     }
 
+.auth-container{
+    max-width:550px;
+    margin:50px auto;
+    border-top:2px solid black;
+    padding-top:25px;
+}
+
+.auth-container h2{
+    text-align:center;
+}
+
+.auth-container form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.auth-container input{
+    padding:12px;
+    border:1px solid black;
+    font-family:"Times New Roman", serif;
+    font-size:16px;
+}
+
+.auth-container button{
+    margin-top:10px;
+    padding:12px;
+    border:1px solid black;
+    background:white;
+    cursor:pointer;
+    font-family:"Times New Roman", serif;
+}
+
+.auth-container button:hover{
+    background:#f2f2f2;
+}
+    
 }
