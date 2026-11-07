@@ -33,11 +33,12 @@
 
         <h2>Join The Daily Chronicle</h2>
 
-        <form>
+        <form id="register-form">
 
             <label>Username</label>
 
             <input
+                id="username"
                 type="text"
                 placeholder="example"
                 required
@@ -50,6 +51,7 @@
             <label>Display Name</label>
 
             <input
+                id="display-name"
                 type="text"
                 placeholder="_Example_"
                 required
@@ -58,6 +60,7 @@
             <label>Email</label>
 
             <input
+                id="email"
                 type="email"
                 placeholder="email@example.com"
                 required
@@ -66,6 +69,7 @@
             <label>Password</label>
 
             <input
+                id="password"
                 type="password"
                 placeholder="Create a password"
                 required
@@ -85,6 +89,10 @@
     </div>
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
